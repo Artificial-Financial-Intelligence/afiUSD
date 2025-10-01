@@ -1,0 +1,53 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+broadcast/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+# Dependencies
+node_modules/
+lib/
+libs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+coverage.json
+
+# Gas reports
+gas-report.txt
+
+# Environment files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Foundry specific
+cache_forge/
+out_forge/
+
+# Temporary files
+*.tmp
+*.temp
+*.wake
+
+# Wake directory
+.wake/
